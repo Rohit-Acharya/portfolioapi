@@ -11,7 +11,10 @@ const RECEIVER_EMAIL = process.env.RECEIVER_EMAIL || "rohitaharya051005@gmail.co
 
 app.use(
   cors({
-    origin: CLIENT_URL,
+     origin: [
+        "http://localhost:3000",
+        "https://portfolio-seven-inky-37.vercel.app"
+    ],
     methods: ["GET", "POST"],
   })
 );
