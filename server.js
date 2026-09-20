@@ -7,7 +7,7 @@ const app = express();
 
 const PORT = process.env.PORT || 5000;
 const CLIENT_URL = process.env.CLIENT_URL || "http://localhost:3000";
-const RECEIVER_EMAIL = process.env.RECEIVER_EMAIL || "thakorrajta859@gmail.com";
+const RECEIVER_EMAIL = process.env.RECEIVER_EMAIL || "rohitaharya051005@gmail.com";
 
 app.use(
   cors({
